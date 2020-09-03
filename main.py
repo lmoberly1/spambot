@@ -5,7 +5,7 @@ import pyautogui
 import time
 
 username = 'realDonaldTrump'
-count = 5
+count = 20
 
 def username_tweets_to_csv(username, count):
     tweetCriteria = got.manager.TweetCriteria().setUsername(username).setMaxTweets(count)    
