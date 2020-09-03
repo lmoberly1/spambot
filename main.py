@@ -27,8 +27,4 @@ def spam(username, count):
         pyautogui.typewrite(tweet[1])
         pyautogui.press('enter')
 
-    
-
-
-
 username_tweets_to_csv(username, count)
