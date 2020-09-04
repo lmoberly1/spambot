@@ -1,11 +1,10 @@
 import GetOldTweets3 as got
 import pandas as pd
-import time
-import pyautogui
-import csv
+
+import time, csv, pyautogui
 
 username = 'realDonaldTrump'
-count = 25
+count = 15
 
 def get_tweets(username, count):
     tweetCriteria = got.manager.TweetCriteria().setUsername(username).setMaxTweets(count)
